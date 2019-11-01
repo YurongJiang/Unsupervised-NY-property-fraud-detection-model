@@ -9,7 +9,7 @@ The data was created on September 2, 2011 and updated annually. The final assess
 Following is description of the variables we consider to be the most important. The complete __Data Quality Report__ can be found in appendix.   
 
 
-#### Project Outline  
+### __Project Outline__ 
 
 The original dataset consists of information including sizes, building classes, values, tax classes owner of about 1 million New York properties. The general process of analysis step includes:  
 
