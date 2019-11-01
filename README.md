@@ -13,7 +13,7 @@ Following is description of the variables we consider to be the most important. 
 
 The original dataset consists of information including sizes, building classes, values, tax classes owner of about 1 million New York properties. The general process of analysis step includes:  
 
-__1.     Data cleaning and missing data filing.__ We proposed the dataset to optimize the results of the analysis. we filed missing values by methods like using mean of the group the missing value belongs to or mode of properties which close to it in geographical location.  
+1.     Data cleaning and missing data filing.__ We proposed the dataset to optimize the results of the analysis. we filed missing values by methods like using mean of the group the missing value belongs to or mode of properties which close to it in geographical location.  
 __2.     Building expert variables and standardizing.__ we built special variables that look for fraud model and scaled them before put them into machine learning models.    
 __3.     Dimensionality reduction through the PCA process.__ We only keep the main PCs and Z scale the data field again.     
 __4.     Applying fraud algorithm, calculating fraud score identifying potential fraud.__ We combined the Z scores as the first fraud score and used the reconstruction error in the process of autoencoder as the second score. Final fraud score is a combination of these two scores.     
