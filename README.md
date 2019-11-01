@@ -24,6 +24,6 @@ __4.     Applying fraud algorithm, calculating fraud score identifying potential
 With the highest Cumulative average of __Heuristic Fraud scores__ and __Autoencoder Fraud scores__, we found the top 10 records which look anomalous and could be classified as underlying real estate frauds.    
 
 __Detailed examination on top 10 high scores__ shows that abnormalities mainly due to three reasons:    
-__1.     Accidentally input wrong data __   
-__2.     Falsely report property value to cheat banks  __  
-__3.     Tax avoidance  __   
+__1.     Accidentally input wrong data__   
+__2.     Falsely report property value to cheat banks__  
+__3.     Tax avoidance__   
